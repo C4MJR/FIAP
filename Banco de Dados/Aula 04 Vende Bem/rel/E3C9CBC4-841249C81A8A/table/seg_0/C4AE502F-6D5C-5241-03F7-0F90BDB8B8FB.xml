@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4AE502F-6D5C-5241-03F7-0F90BDB8B8FB" name="Estabelecimento">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>4FF4ABF2-2A8E-0B88-F766-D2F6A3C2DA48</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CÓDIGO_ESTABELECIMENTO" id="DD417928-75B3-4B64-C197-B470C9372C6B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>2D57537B-6687-A6E5-874C-25204F297D84</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RAZAO_SOCIAL" id="2B88E298-3665-94B0-796E-0D5463BAF041">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>48656E28-B61E-3EED-2B21-88E6AD0B6638</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>110 BYTE</dataTypeSize>
+<ownDataTypeParameters>110 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CNPJ" id="57312CC1-6229-AC48-01F8-6930546ED879">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>DD111CFE-B49A-AEA0-5FDB-1B2A63D45EAF</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSCRICAO_ESTADUAL" id="0FC7ED6C-F745-6168-45A9-889B5887648C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>CB60EDC3-2F60-5C45-912B-9638B2AD2309</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDERECO" id="22B11AA9-B85A-14DD-8217-5DD51E1A70FC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>C9609702-C6F4-E6AE-4FC7-2310C3886683</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONE_EMPRESA" id="1CC28B53-DEF6-76FC-84F9-8038649C8D9B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>D7ECF81F-1DC5-3CA5-BFC4-4FDB7443A2B1</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>70 BYTE</dataTypeSize>
+<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="68EBF344-F01F-A7BC-A738-2B4A60D98EE1" name="Estabelecimento_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>07C016E3-1CFF-D377-D536-03BD52F37DBD</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD417928-75B3-4B64-C197-B470C9372C6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

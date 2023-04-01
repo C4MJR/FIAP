@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4FF4ABF2-2A8E-0B88-F766-D2F6A3C2DA48" name="Estabelecimento">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 00:54:18 UTC</createdTime>
+<ownerDesignName>31-03</ownerDesignName>
+<engineerTo>
+<item key="E3C9CBC4-4E86-5991-FC68-841249C81A8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CÓDIGO ESTABELECIMENTO" id="2D57537B-6687-A6E5-874C-25204F297D84">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 00:54:39 UTC</createdTime>
+<ownerDesignName>31-03</ownerDesignName>
+<engineerTo>
+<item key="E3C9CBC4-4E86-5991-FC68-841249C81A8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RAZAO SOCIAL" id="48656E28-B61E-3EED-2B21-88E6AD0B6638">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 00:57:40 UTC</createdTime>
+<ownerDesignName>31-03</ownerDesignName>
+<engineerTo>
+<item key="E3C9CBC4-4E86-5991-FC68-841249C81A8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>110 BYTE</dataTypeSize>
+<ownDataTypeParameters>110 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CNPJ" id="DD111CFE-B49A-AEA0-5FDB-1B2A63D45EAF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 00:59:36 UTC</createdTime>
+<ownerDesignName>31-03</ownerDesignName>
+<engineerTo>
+<item key="E3C9CBC4-4E86-5991-FC68-841249C81A8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INSCRICAO ESTADUAL" id="CB60EDC3-2F60-5C45-912B-9638B2AD2309">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:00:56 UTC</createdTime>
+<ownerDesignName>31-03</ownerDesignName>
+<engineerTo>
+<item key="E3C9CBC4-4E86-5991-FC68-841249C81A8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENDERECO" id="C9609702-C6F4-E6AE-4FC7-2310C3886683">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:01:37 UTC</createdTime>
+<ownerDesignName>31-03</ownerDesignName>
+<engineerTo>
+<item key="E3C9CBC4-4E86-5991-FC68-841249C81A8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONE EMPRESA" id="D7ECF81F-1DC5-3CA5-BFC4-4FDB7443A2B1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:02:15 UTC</createdTime>
+<ownerDesignName>31-03</ownerDesignName>
+<engineerTo>
+<item key="E3C9CBC4-4E86-5991-FC68-841249C81A8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>70 BYTE</dataTypeSize>
+<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="07C016E3-1CFF-D377-D536-03BD52F37DBD" name="Estabelecimento PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 00:59:19 UTC</createdTime>
+<ownerDesignName>31-03</ownerDesignName>
+<engineerTo>
+<item key="E3C9CBC4-4E86-5991-FC68-841249C81A8A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2D57537B-6687-A6E5-874C-25204F297D84</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

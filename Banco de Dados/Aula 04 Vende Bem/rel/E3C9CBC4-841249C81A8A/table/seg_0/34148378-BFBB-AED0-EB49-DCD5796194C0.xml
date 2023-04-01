@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34148378-BFBB-AED0-EB49-DCD5796194C0" name="Produto">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>7017D205-7CEF-46EF-8B62-15901450688F</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PRODUTO" id="A0F0939C-5284-35AC-0654-4C49038E5F08">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>31107936-3751-8B20-515E-9D2254F6F62D</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME_PRODUTO" id="33B6C42F-D40C-0D9A-807B-D7D099B67B24">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>DC74991F-2926-FB98-D7D8-AF98306F14C2</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTIDADE_CONSUMIDA" id="B69FE858-0569-7946-F54F-23C44EC8AE54">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>4775CDE9-EB46-02B5-BFC9-3ACD6515D448</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="062F2D05-0647-5BD4-0F8C-AE5ADCFFF175">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>8D348C99-C63B-C244-1324-0FB61A571348</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECO_UNITARIO" id="BE35A8D5-372A-B16E-515F-3C1A3C04E4B9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>48C91484-FAC0-471F-5F16-ACE15706CE38</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1815D581-FDA9-5B7C-E59D-3F07180C3515" name="Produto_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>3C0A9582-9593-603B-44E1-D74177D69762</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0F0939C-5284-35AC-0654-4C49038E5F08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

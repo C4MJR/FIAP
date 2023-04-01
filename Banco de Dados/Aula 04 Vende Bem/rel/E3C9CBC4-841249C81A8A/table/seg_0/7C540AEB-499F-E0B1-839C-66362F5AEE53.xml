@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C540AEB-499F-E0B1-839C-66362F5AEE53" name="Pedido">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>B7E40C49-EC16-A1B4-B3BD-CB8DE9B96816</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO_PEDIDO" id="CDD3B032-327C-57A3-F4F5-05C65D0D1831">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>2E4DCA68-E691-F88D-3E8F-C90F573612FD</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_HORA_INICIO_ATEND" id="03F751DF-E76E-1D4F-AE23-A801DBCAD739">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>51EF54F5-7B5F-CF3F-2619-9CFAE23C16DA</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME_ATENDENTE" id="83D416E2-F59E-34A3-7F5F-E4AB3ABB59B7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>8406496B-2729-218E-5178-7D3AC5601629</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>70 BYTE</dataTypeSize>
+<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FORMA_PAGAMENTO" id="8AC03599-3C8A-BEFF-A8D9-E7200EEDF374">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>0650397A-A28D-5079-300B-D2FF66D0ACBC</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME_CLIENTE" id="D0FBC818-9E0C-1F5F-6C7E-FB73806E2348">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>F012141F-3E6F-56B4-025F-74BE5AAA4CEA</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QTDE_PESSOAS" id="3AC82229-7AEE-EEAA-C0E3-337AFF92C7D5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>0526C75D-553B-9DDB-14D3-10F80665143A</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_HORA_FIM_ATEND" id="3066F3B3-DB0C-19E4-DF35-B282C29DBFE9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>F546D0DD-0622-71AF-B3E2-FB241FF37473</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_TOTAL_VENDA" id="12D15581-64F5-166F-D8B6-4BE18D434CD2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>66FA9665-4C2D-653B-F90B-A0D7FD579E52</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_TOTAL_DESCONTO" id="BED654C4-46C3-7D15-DD43-555B2F4761B0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>BC42EDE0-9655-8BBD-B738-2A250009B518</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_MESA" id="EAF60BCD-03F1-A21F-3E4A-CB8A7F3DD7AD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>1081F980-1D5D-541E-6245-D544D600E4D4</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100</dataTypePrecision>
+<ownDataTypeParameters>,100,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1996C93-EDBE-6459-F7F3-A3E1FA455D8A" name="Pedido_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:40 UTC</createdTime>
+<generatorID>374019A7-FDBB-F3AF-A61A-606B992B23C1</generatorID>
+<ownerDesignName>31-03</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDD3B032-327C-57A3-F4F5-05C65D0D1831"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
